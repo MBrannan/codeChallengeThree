@@ -2,9 +2,21 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Node Express Joke Book</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <script type="text/javascript" src="../vendor/jquery.min.js"></script>
+    <script type="text/javascript" src="../scripts/client.js"></script>
+    <title>Sigma Comedy Night</title>
   </head>
   <body>
+    <h1>Sigma Comedy Night</h1>
+    <form id="postJoke">
 
+    <input type="text" placeholder="Your Name" name="whoseJoke">
+    <input type="text" placeholder="Joke Question" name="jokeQuestion">
+    <input type="text" placeholder="Punch Line" name="punchLine">
+    <button type="submit" id="submit">Submit Joke</button>
+    </form>
+
+    <div id="jokeContainer"></div>
   </body>
 </html>
